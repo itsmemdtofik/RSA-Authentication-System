@@ -13,10 +13,7 @@ The **RSA Authentication System** is a cutting-edge Java-based application desig
   - [Running the Server](#running-the-server)
   - [Running the Client](#running-the-client)
   - [Using the Passkey Generators](#using-the-passkey-generators)
-- [Repository Structure](#repository-structure)
-- [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
 
 
 ## 🎯 Features
@@ -56,15 +53,9 @@ The **RSA Authentication System** is a cutting-edge Java-based application desig
    ```bash
    git clone https://github.com/itsmemdtofik/RSA-Authentication-System.git
 
-2. Navigate to the Project Directory
-```bash
-  cd RSA-Authentication-System
-
- ## 📝 Usage
-
-To generate passkeys using the newly implemented passkey generators:
-
-Ensure you have the required user ID.
-Call the generatePasskey(String userId) method from either **PasskeyGeneratorHexadecimal or PasskeyStringGenerator** classes.
-
-
+5. Compile the Server and Client
+  ```bash
+javac Server.java
+javac ClientAuthnUi.java
+javac PasskeyGeneratorHexadecimal.java
+javac PasskeyStringGenerator.java
