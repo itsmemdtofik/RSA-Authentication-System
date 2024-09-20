@@ -59,3 +59,19 @@ javac Server.java
 javac ClientAuthnUi.java
 javac PasskeyGeneratorHexadecimal.java
 javac PasskeyStringGenerator.java
+```
+---
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+Repository link: [https://github.com/itsmemdtofik/RSA-Authentication-System](https://github.com/itsmemdtofik/RSA-Authentication-System)
+
+## Contact
+
+For any inquiries or support, reach out to the project maintainer:
+
+- Name: **Mohammad Tofik**
+- GitHub: [itsmemdtofik](https://github.com/itsmemdtofik)
