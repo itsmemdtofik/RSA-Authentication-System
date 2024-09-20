@@ -42,6 +42,8 @@ The **RSA Authentication System** is a cutting-edge Java-based application desig
 - **Serialization:** Uses `ObjectInputStream` and `ObjectOutputStream` for data exchange.
 - **Security Libraries:** Includes `MessageDigest` and `SecureRandom` for cryptographic operations.
 
+---
+
 ## Installation
 
 ### Prerequisites
@@ -54,7 +56,10 @@ The **RSA Authentication System** is a cutting-edge Java-based application desig
    ```bash
    git clone https://github.com/itsmemdtofik/RSA-Authentication-System.git
 
- 
+2. Navigate to the Project Directory
+```bash
+  cd RSA-Authentication-System
+
  ## 📝 Usage
 
 To generate passkeys using the newly implemented passkey generators:
